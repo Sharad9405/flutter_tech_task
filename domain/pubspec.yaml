@@ -1,0 +1,24 @@
+name: domain
+description: Domain Layer
+version: 0.0.1
+author: Sharad P
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: none # Remove this line if you wish to publish to pub.dev
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dartz: ^0.9.2
+  riverpod: ^0.12.2
+  rxdart: ^0.25.0
+  device_info:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
